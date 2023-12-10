@@ -1,0 +1,104 @@
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10;
+    padding: 0;
+    background-color: #169911c0;
+  }
+  
+  .app {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color:rgb(88, 6, 88);
+    text-align: center;
+    text-shadow: 2px 2px goldenrod;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .news-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .news-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-item h2 {
+    color: #3a0505;
+  }
+  
+  .news-item p {
+    color: #5b9c0b;
+  }
+  
+  .news-item a {
+    color:rgb(89, 17, 60);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .news-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination button {
+    background-color: rgb(77, 9, 77);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color:rgb(109, 9, 71);
+  }
+  
+  .pagination .active button {
+    background-color:black;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .app {
+      padding: 10px;
+    }
+  
+    .news-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  input{
+    box-shadow: 2p 2px gray;
+  }
+ 
